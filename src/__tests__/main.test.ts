@@ -9,7 +9,7 @@ describe('main', () => {
 
   describe('subtract', () => {
     it('should subtract two numbers', () => {
-      expect(subtract(4, 2)).toBe(6);
+      expect(subtract(4, 2)).toBe(2);
     });
   });
 });
