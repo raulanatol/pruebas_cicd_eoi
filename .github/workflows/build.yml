@@ -10,3 +10,5 @@ jobs:
         run: make init
       - name: Build and tests
         run: make
+      - name: Deploy to S3
+        run: echo "Subo a S3"
