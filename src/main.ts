@@ -1,2 +1,3 @@
-export const add = (valueA: number, valueB: number) =>
-  valueA + valueB;
+export function add(valueA: number, valueB: number) {
+  return valueA + valueB;
+}
